@@ -1,0 +1,27 @@
+{
+  "name": "twitch_chat_relay",
+  "version": "1.0.0",
+  "description": "mvp for relaying messages from one twitch chat to another",
+  "main": "entry.ts",
+  "repository": "https://github.com/harunadess/twitch_chat_relay",
+  "author": "harunadess",
+  "scripts": {
+    "start": "ts-node ./entry.ts"
+  },
+  "dependencies": {
+    "tmi.js": "^1.8.5"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.36",
+    "@types/tmi.js": "^1.8.1",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
+  }
+}
